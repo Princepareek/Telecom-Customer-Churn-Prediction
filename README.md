@@ -32,25 +32,3 @@ Model Training: Trained Logistic Regression, Decision Tree, Random Forest, and X
 
 Evaluation: Measured accuracy, precision, recall, F1-score to find the best-performing model.
 
-Insights: Month-to-month contracts and high monthly charges increase churn risk.
-
-💻 How to Use
-Clone the repo:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/telecom-churn-prediction.git
-cd telecom-churn-prediction
-Install dependencies:
-
-bash
-Copy
-Edit
-pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost
-Run the Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook
