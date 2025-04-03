@@ -1,4 +1,5 @@
 Telecom Customer Churn Prediction
+
 📌 Project Overview
 This project predicts whether a telecom customer will churn (leave the service) based on their usage patterns and demographics. By identifying key factors influencing churn, businesses can improve customer retention.
 
