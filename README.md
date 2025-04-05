@@ -26,9 +26,9 @@ Preprocessing: Label Encoding, Standard Scaling, Train-Test Split
 Model Optimization: GridSearchCV
 
 📊 Workflow
+
 EDA & Preprocessing: Cleaned data, handled missing values, performed feature engineering.
 
 Model Training: Trained Logistic Regression, Decision Tree, Random Forest, and XGBoost models.
 
 Evaluation: Measured accuracy, precision, recall, F1-score to find the best-performing model.
-
