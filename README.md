@@ -1,34 +1,48 @@
-Telecom Customer Churn Prediction
+# Telecom Churn Prediction 📱📉
 
-📌 Project Overview
-This project predicts whether a telecom customer will churn (leave the service) based on their usage patterns and demographics. By identifying key factors influencing churn, businesses can improve customer retention.
+A data science project to predict telecom customer churn and understand key factors driving customer attrition.
 
-📂 Dataset
-Includes customer details such as:
+## 🧰 Tools & Libraries Used
+- Python (Pandas, NumPy)
+- Scikit-learn
+- Matplotlib, Seaborn
+- GridSearchCV
 
-Demographics (Gender, Senior Citizen, etc.)
+## 🎯 Objective
+- Predict if a customer will churn using classification models.
+- Identify patterns and features that influence churn.
+- Help telecom companies retain customers and reduce losses.
 
-Account Info (Contract Type, Monthly Charges, Tenure)
+## 📊 Dataset
+Includes customer demographics, subscription type, tenure, monthly charges, and churn status.
 
-Service Usage (Internet Service, Streaming, Tech Support)
+## ⚙️ Process Overview
+1. **Data Cleaning**: Handled missing values, encoded categorical features, scaled numerics.
+2. **EDA**: Visualized patterns and trends using Matplotlib & Seaborn.
+3. **Modeling**: Used Logistic Regression and Decision Trees.
+4. **Tuning**: Applied GridSearchCV to improve model performance.
+5. **Evaluation**: Accuracy, precision, recall used to assess results.
 
-Churn Label (Yes/No)
+## 🔍 Key Insights
+- Month-to-month contracts had the highest churn rates.
+- High billing complaints and low tenure led to increased churn.
+- Recommendations for retention strategies were made based on findings.
 
-🛠️ Technologies & Libraries
-Data Handling: Python, Pandas, NumPy
+## 💡 Business Impact
+- Enables proactive customer retention strategies.
+- Helps reduce customer acquisition costs.
+- Improves long-term revenue and customer satisfaction.
 
-Visualization: Matplotlib, Seaborn, Plotly
+## 📂 Repository Structure
+- `data/`: Dataset files
+- `notebooks/`: Jupyter notebooks for EDA, modeling
+- `src/`: Scripts for preprocessing and model building
+- `outputs/`: Visualizations and result metrics
 
-Machine Learning: Scikit-learn, XGBoost, Random Forest, Logistic Regression
+## 📌 How to Run
+1. Clone the repo
+2. Install requirements: `pip install -r requirements.txt`
+3. Run the Jupyter notebooks or scripts in `src/`
 
-Preprocessing: Label Encoding, Standard Scaling, Train-Test Split
-
-Model Optimization: GridSearchCV
-
-📊 Workflow
-
-EDA & Preprocessing: Cleaned data, handled missing values, performed feature engineering.
-
-Model Training: Trained Logistic Regression, Decision Tree, Random Forest, and XGBoost models.
-
-Evaluation: Measured accuracy, precision, recall, F1-score to find the best-performing model.
+## 🔗 Author
+Prince Pareek
