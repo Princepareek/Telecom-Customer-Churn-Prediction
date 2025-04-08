@@ -8,6 +8,8 @@ A data science project to predict telecom customer churn and understand key fact
 - Matplotlib, Seaborn
 - GridSearchCV
 
+![telecon](https://github.com/user-attachments/assets/7984ad58-919d-4b89-95f8-bfbbbff5359f)
+
 ## 🎯 Objective
 - Predict if a customer will churn using classification models.
 - Identify patterns and features that influence churn.
@@ -38,6 +40,7 @@ Includes customer demographics, subscription type, tenure, monthly charges, and 
 - `notebooks/`: Jupyter notebooks for EDA, modeling
 - `src/`: Scripts for preprocessing and model building
 - `outputs/`: Visualizations and result metrics
+![telcom 3](https://github.com/user-attachments/assets/7c910791-6be4-4d4e-97fb-799617b35eec)
 
 ## 📌 How to Run
 1. Clone the repo
